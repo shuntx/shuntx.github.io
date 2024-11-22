@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Custom Share URL</title>
+    <link rel="canonical" href="https://xyz.com/vi-vn/sign-up">
 </head>
 
 <body>
@@ -19,21 +20,21 @@
         // });
         // console.log("URL đã được thay đổi thành:", window.location.href);
 
-        const shareURL = "https://xyz.com";
+        // const shareURL = "https://xyz.com";
 
-        if (navigator.share) {
-            navigator.share({
-                // title: "Chia sẻ URL mới",
-                // text: "Hãy xem nội dung thú vị này!",
-                url: shareURL,
-            }).then(() => {
-                console.log("Chia sẻ thành công!");
-            }).catch((error) => {
-                console.error("Chia sẻ thất bại:", error);
-            });
-        } else {
-            console.log("Trình duyệt không hỗ trợ Web Share API.");
-        }
+        // if (navigator.share) {
+        //     navigator.share({
+        //         // title: "Chia sẻ URL mới",
+        //         // text: "Hãy xem nội dung thú vị này!",
+        //         url: shareURL,
+        //     }).then(() => {
+        //         console.log("Chia sẻ thành công!");
+        //     }).catch((error) => {
+        //         console.error("Chia sẻ thất bại:", error);
+        //     });
+        // } else {
+        //     console.log("Trình duyệt không hỗ trợ Web Share API.");
+        // }
     </script>
 </body>
 
